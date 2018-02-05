@@ -23,7 +23,7 @@ package org.apache.openjpa.lib.identifier;
  * on strings using identifier rules.
  */
 public interface IdentifierUtil {
-    public static final String DOUBLE_QUOTE = "\"";
+    public static final String DOUBLE_QUOTE = "\\\"";
     public static final String DOT = ".";
     public static final String UNDERSCORE = "_";
     public static final String SPACE = " ";
